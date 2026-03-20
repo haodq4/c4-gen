@@ -1,6 +1,6 @@
 {
   "name": "c4-gen",
-  "version": "1.6.3",
+  "version": "1.6.4",
   "description": "Công cụ tự động sinh tài liệu kiến trúc C4 Model từ source code sử dụng AI",
   "main": "index.js",
   "type": "module",
