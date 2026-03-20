@@ -1,0 +1,47 @@
+{
+  "name": "c4-gen",
+  "version": "1.6.3",
+  "description": "Công cụ tự động sinh tài liệu kiến trúc C4 Model từ source code sử dụng AI",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "c4-gen": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"No tests yet\" && exit 0",
+    "start": "node index.js",
+    "prepublishOnly": "chmod +x index.js"
+  },
+  "keywords": [
+    "c4",
+    "c4-model",
+    "architecture",
+    "documentation",
+    "diagram",
+    "ai",
+    "gemini",
+    "mermaid",
+    "markdown",
+    "code-analysis",
+    "cli"
+  ],
+  "author": "Duong Quoc Hao <haodq4@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haodq4/c4-gen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/haodq4/c4-gen/issues"
+  },
+  "homepage": "https://github.com/haodq4/c4-gen#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "commander": "^12.0.0",
+    "fs-extra": "^11.2.0",
+    "ignore": "^5.3.1"
+  }
+}

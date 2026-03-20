@@ -1,0 +1,26 @@
+node_modules/
+dist/
+build/
+coverage/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.local
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.npm
+.eslintcache
+
+# Test files
+test-docs/
+demo-docs/
+test-*.js
+demo.js
+simple-test.js
+list-models.js
